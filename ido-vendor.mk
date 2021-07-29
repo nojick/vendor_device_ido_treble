@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/lib/libOmxVdecHevc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVdecHevc.so \
      vendor/xiaomi/ido/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
     vendor/xiaomi/ido/proprietary/lib64/hw/consumerir.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8916.so \
-    vendor/xiaomi/ido/proprietary/lib64/hw/sensors.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.msm8916.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/sensors.ido.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ido.so \
     vendor/xiaomi/ido/proprietary/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
     vendor/xiaomi/ido/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
     vendor/xiaomi/ido/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
