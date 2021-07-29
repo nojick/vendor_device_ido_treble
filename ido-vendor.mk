@@ -42,19 +42,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/andsfCne.xml \
     vendor/xiaomi/ido/proprietary/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm/dpm.conf \
     vendor/xiaomi/ido/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/xiaomi/ido/proprietary/etc/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a420_pfp.fw \
-    vendor/xiaomi/ido/proprietary/etc/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a420_pm4.fw \
-    vendor/xiaomi/ido/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/xiaomi/ido/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/xiaomi/ido/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/xiaomi/ido/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/xiaomi/ido/proprietary/etc/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.b00 \
-    vendor/xiaomi/ido/proprietary/etc/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.b01 \
-    vendor/xiaomi/ido/proprietary/etc/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.b02 \
-    vendor/xiaomi/ido/proprietary/etc/firmware/venus.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.b03 \
-    vendor/xiaomi/ido/proprietary/etc/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.b04 \
-    vendor/xiaomi/ido/proprietary/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.mbn \
-    vendor/xiaomi/ido/proprietary/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/venus.mdt \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b02 \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/venus.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b03 \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
+    vendor/xiaomi/ido/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
     vendor/xiaomi/ido/proprietary/etc/permissions/ConnectivityExt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/ido/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/ido/proprietary/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.dpmframework.xml \
