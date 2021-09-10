@@ -467,12 +467,19 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
+        vendor/xiaomi/ido/proprietary/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@2.0.so \
         vendor/xiaomi/ido/proprietary/lib64/android.hardware.configstore-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore-utils.so \
         vendor/xiaomi/ido/proprietary/lib64/android.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore@1.0.so \
+        vendor/xiaomi/ido/proprietary/lib64/android.hardware.configstore@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore@1.1.so \
         vendor/xiaomi/ido/proprietary/lib64/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinder.so \
+        vendor/xiaomi/ido/proprietary/lib64/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstdc++.so \
+        vendor/xiaomi/ido/proprietary/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@2.0.so \
         vendor/xiaomi/ido/proprietary/lib/android.hardware.configstore-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore-utils.so \
         vendor/xiaomi/ido/proprietary/lib/android.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore@1.0.so \
+        vendor/xiaomi/ido/proprietary/lib/android.hardware.configstore@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore@1.1.so \
         vendor/xiaomi/ido/proprietary/lib/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder.so \
+        vendor/xiaomi/ido/proprietary/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so \
+
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
