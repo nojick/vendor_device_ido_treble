@@ -478,7 +478,16 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/lib/android.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore@1.0.so \
         vendor/xiaomi/ido/proprietary/lib/android.hardware.configstore@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore@1.1.so \
         vendor/xiaomi/ido/proprietary/lib/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder.so \
-        vendor/xiaomi/ido/proprietary/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so \
+        vendor/xiaomi/ido/proprietary/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so
+        
+# Ril audio. Libmedia dummy empty.
+PRODUCT_COPY_FILES += \
+        vendor/xiaomi/ido/proprietary/lib64/libaudioclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioclient.so \
+        vendor/xiaomi/ido/proprietary/lib64/libaudiomanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiomanager.so \
+        vendor/xiaomi/ido/proprietary/lib64/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioutils.so \
+        vendor/xiaomi/ido/proprietary/lib64/libmediametrics.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmediametrics.so \
+        vendor/xiaomi/ido/proprietary/lib64/libspeexresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeexresampler.so \
+        vendor/xiaomi/ido/proprietary/lib64/libmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmedia.so \
 
 
 PRODUCT_PACKAGES += \
