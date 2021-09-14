@@ -426,6 +426,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libvendorconn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendorconn.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
+    
+    # Service bluetooth
+PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/ido/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/ido/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
@@ -434,8 +437,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
-        vendor/xiaomi/ido/proprietary/vendor/lib64/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.0.so \
-        vendor/xiaomi/ido/proprietary/vendor/lib64/android.hardware.gnss@1.0-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.0-v27.so \
+    
+    # GPS
+PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDRPlugin.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libdrplugin_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrplugin_client.so \
@@ -455,23 +459,31 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
-        vendor/xiaomi/ido/proprietary/vendor/lib64/libloc_pla.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_pla.so \
-        vendor/xiaomi/ido/proprietary/vendor/lib64/libloc_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_stub.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
-        vendor/xiaomi/ido/proprietary/vendor/lib64/libcurl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl.so \
-        vendor/xiaomi/ido/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0_vendor.so \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/lib_drplugin_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_drplugin_server.so \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_externalDr.so \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.1.so \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.2.so \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.0.so \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.1.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/hw/android.hardware.gnss@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.0-impl-qti.so \
-        vendor/xiaomi/ido/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
-        vendor/xiaomi/ido/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
-        vendor/xiaomi/ido/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@2.0-impl.so \
+        vendor/xiaomi/ido/proprietary/vendor/bin/hw/vendor.qti.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@2.0-service \
+        vendor/xiaomi/ido/proprietary/vendor/etc/init/vendor.qti.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@2.0-service.rc \
+        vendor/xiaomi/ido/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
         vendor/xiaomi/ido/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
         vendor/xiaomi/ido/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
         vendor/xiaomi/ido/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
+        vendor/xiaomi/ido/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
+        
+        # VNDK28 lib "not found"
+PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@2.0.so \
         vendor/xiaomi/ido/proprietary/lib64/android.hardware.configstore-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore-utils.so \
         vendor/xiaomi/ido/proprietary/lib64/android.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore@1.0.so \
