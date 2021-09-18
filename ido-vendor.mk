@@ -514,6 +514,10 @@ PRODUCT_COPY_FILES += \
 	vendor/xiaomi/ido/proprietary/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
 	vendor/xiaomi/ido/proprietary/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
 	vendor/xiaomi/ido/proprietary/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
+# Lib APTX
+PRODUCT_COPY_FILES += \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
