@@ -526,18 +526,6 @@ PRODUCT_COPY_FILES += \
 	vendor/xiaomi/ido/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
 	vendor/xiaomi/ido/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc
 
-# FM
-PRODUCT_COPY_FILES += \
-	vendor/xiaomi/ido/proprietary/vendor/bin/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.fm.sh \
-	vendor/xiaomi/ido/proprietary/vendor/bin/fmconfig:$(TARGET_COPY_OUT_VENDOR)/bin/fmconfig \
-	vendor/xiaomi/ido/proprietary/vendor/bin/fmfactorytest:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytest \
-	vendor/xiaomi/ido/proprietary/vendor/bin/fmfactorytestserver:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytestserver \
-	vendor/xiaomi/ido/proprietary/vendor/bin/fmhal_service:$(TARGET_COPY_OUT_VENDOR)/bin/fmhal_service \
-	vendor/xiaomi/ido/proprietary/vendor/bin/fmt:$(TARGET_COPY_OUT_VENDOR)/bin/fmt \
-	vendor/xiaomi/ido/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
-	vendor/xiaomi/ido//proprietary/app/FM/lib/arm64/libqcomfm_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/FM/lib/arm64/libqcomfm_jni.so
-	
-
 # DRM TUI
 PRODUCT_COPY_FILES += \
 	vendor/xiaomi/ido/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
