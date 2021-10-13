@@ -530,6 +530,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     shutdownlistener \
+    FM \
     CNEService \
     qcrilmsgtunnel \
     qcnvitems \
