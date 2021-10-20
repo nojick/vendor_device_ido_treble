@@ -542,6 +542,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/xiaomi/ido/proprietary/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag
 
+# peripheral
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/ido/proprietary/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
+    vendor/xiaomi/ido/proprietary/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge
+
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
