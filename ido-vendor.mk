@@ -361,8 +361,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_gyroscope.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libcalmodule_senodia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_senodia.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libcalmodule_yamaha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_yamaha.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmctmgr.so \
@@ -399,6 +397,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
@@ -487,13 +486,13 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so
         
 # Ril audio. Libmedia dummy empty.
-PRODUCT_COPY_FILES += \
-        vendor/xiaomi/ido/proprietary/lib64/libaudioclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioclient.so \
-        vendor/xiaomi/ido/proprietary/lib64/libaudiomanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiomanager.so \
-        vendor/xiaomi/ido/proprietary/lib64/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioutils.so \
-        vendor/xiaomi/ido/proprietary/lib64/libmediametrics.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmediametrics.so \
-        vendor/xiaomi/ido/proprietary/lib64/libspeexresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeexresampler.so \
-        vendor/xiaomi/ido/proprietary/lib64/libmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmedia.so \
+#PRODUCT_COPY_FILES += \
+#        vendor/xiaomi/ido/proprietary/lib64/libaudioclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioclient.so \
+#        vendor/xiaomi/ido/proprietary/lib64/libaudiomanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiomanager.so \
+#        vendor/xiaomi/ido/proprietary/lib64/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioutils.so \
+#        vendor/xiaomi/ido/proprietary/lib64/libmediametrics.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmediametrics.so \
+#        vendor/xiaomi/ido/proprietary/lib64/libspeexresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeexresampler.so \
+#        vendor/xiaomi/ido/proprietary/lib64/libmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmedia.so \
 
 # Drm widevine
 PRODUCT_COPY_FILES += \
@@ -547,9 +546,34 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/xiaomi/ido/proprietary/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge
 
+# peripheral
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/ido/proprietary/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
+    vendor/xiaomi/ido/proprietary/bin/imscmservice:$(TARGET_COPY_OUT_VENDOR)/bin/imscmservice \
+    vendor/xiaomi/ido/proprietary/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
+    vendor/xiaomi/ido/proprietary/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
+    vendor/xiaomi/ido/proprietary/bin/init.qti.ims.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.ims.sh \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-ims-rcscmjni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscamera.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsqimf.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imsrcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcs.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imsrcscm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscm.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imsrcscmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscmclient.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imsrcscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscmservice.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imss.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsSDP.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvt.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsxml.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvt.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so
+
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
+    ims \
+    imssettings \
     shutdownlistener \
     CNEService \
     qcrilmsgtunnel \
