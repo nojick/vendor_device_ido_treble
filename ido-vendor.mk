@@ -537,6 +537,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneqmiutils.so
 
+# CNSS
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/ido/proprietary/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
+    vendor/xiaomi/ido/proprietary/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag
+
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
