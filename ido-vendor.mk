@@ -481,19 +481,17 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
         vendor/xiaomi/ido/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
         
-        # VNDK28 lib "not found"
+        # VNDK29 lib "not found"
 PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@2.0.so \
-        vendor/xiaomi/ido/proprietary/lib64/android.hardware.configstore-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore-utils.so \
-        vendor/xiaomi/ido/proprietary/lib64/android.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore@1.0.so \
-        vendor/xiaomi/ido/proprietary/lib64/android.hardware.configstore@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.configstore@1.1.so \
+        vendor/xiaomi/ido/proprietary/lib64/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@3.0.so \
         vendor/xiaomi/ido/proprietary/lib64/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinder.so \
+        vendor/xiaomi/ido/proprietary/lib64/libbinderthreadstate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinderthreadstate.so \
         vendor/xiaomi/ido/proprietary/lib64/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstdc++.so \
         vendor/xiaomi/ido/proprietary/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@2.0.so \
-        vendor/xiaomi/ido/proprietary/lib/android.hardware.configstore-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore-utils.so \
-        vendor/xiaomi/ido/proprietary/lib/android.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore@1.0.so \
-        vendor/xiaomi/ido/proprietary/lib/android.hardware.configstore@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.configstore@1.1.so \
+        vendor/xiaomi/ido/proprietary/lib/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@3.0.so \
         vendor/xiaomi/ido/proprietary/lib/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder.so \
+        vendor/xiaomi/ido/proprietary/lib/libbinderthreadstate.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinderthreadstate.so \
         vendor/xiaomi/ido/proprietary/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so
         
 # Ril audio. Libmedia dummy empty.
