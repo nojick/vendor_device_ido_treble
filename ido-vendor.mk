@@ -496,11 +496,11 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so
         
 # Ril audio. Libmedia dummy empty.
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/lib64/libaudioclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioclient.so \
         vendor/xiaomi/ido/proprietary/lib64/libaudiomanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiomanager.so \
         vendor/xiaomi/ido/proprietary/lib64/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioutils.so \
-        vendor/xiaomi/ido/proprietary/lib64/libmediametrics.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmediametrics.so \
+        vendor/xiaomi/ido/proprietary/lib64/libshimaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshimaudio.so \
         vendor/xiaomi/ido/proprietary/lib64/libspeexresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeexresampler.so \
         vendor/xiaomi/ido/proprietary/lib64/libmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmedia.so \
 
