@@ -573,6 +573,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so
 
+# QCRIL DB
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/ido/proprietary/vendor/qcril.db:$(TARGET_COPY_OUT_VENDOR)/qcril.db
+
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
