@@ -516,7 +516,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     shutdownlistener \
-    CNEService \
     qcnvitems \
     qcrilhook \
     QtiTelephonyServicelibrary \
