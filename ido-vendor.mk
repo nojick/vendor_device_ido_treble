@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
     vendor/xiaomi/ido/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
     vendor/xiaomi/ido/proprietary/lib/hw/consumerir.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.msm8916.so \
-    vendor/xiaomi/ido/proprietary/lib/libOmxVdecHevc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVdecHevc.so \
     vendor/xiaomi/ido/proprietary/lib64/hw/consumerir.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8916.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/sensors.ido.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ido.so \
     vendor/xiaomi/ido/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
@@ -405,23 +404,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@2.0.so \
         vendor/xiaomi/ido/proprietary/lib64/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.allocator@3.0.so \
-        vendor/xiaomi/ido/proprietary/lib64/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinder.so \
-        vendor/xiaomi/ido/proprietary/lib64/libbinderthreadstate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinderthreadstate.so \
         vendor/xiaomi/ido/proprietary/lib64/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstdc++.so \
         vendor/xiaomi/ido/proprietary/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@2.0.so \
         vendor/xiaomi/ido/proprietary/lib/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.allocator@3.0.so \
-        vendor/xiaomi/ido/proprietary/lib/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder.so \
-        vendor/xiaomi/ido/proprietary/lib/libbinderthreadstate.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinderthreadstate.so \
         vendor/xiaomi/ido/proprietary/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so
-        
-# Ril audio. Libmedia dummy empty.
-#PRODUCT_COPY_FILES += \
-        vendor/xiaomi/ido/proprietary/lib64/libaudioclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioclient.so \
-        vendor/xiaomi/ido/proprietary/lib64/libaudiomanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiomanager.so \
-        vendor/xiaomi/ido/proprietary/lib64/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioutils.so \
-        vendor/xiaomi/ido/proprietary/lib64/libshimaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshimaudio.so \
-        vendor/xiaomi/ido/proprietary/lib64/libspeexresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeexresampler.so \
-        vendor/xiaomi/ido/proprietary/lib64/libmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmedia.so \
 
 # Drm widevine
 PRODUCT_COPY_FILES += \
