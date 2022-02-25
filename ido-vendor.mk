@@ -438,6 +438,7 @@ PRODUCT_COPY_FILES += \
 	vendor/xiaomi/ido/proprietary/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
 	vendor/xiaomi/ido/proprietary/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
 	vendor/xiaomi/ido/proprietary/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
+	vendor/xiaomi/ido/proprietary/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
 
 #Ril XML
 PRODUCT_COPY_FILES += \
@@ -497,7 +498,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/xiaomi/ido/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
-    
+#Ril DPM
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmqmihal.so \
+
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
