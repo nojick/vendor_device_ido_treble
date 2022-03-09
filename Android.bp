@@ -57,3 +57,26 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
+
+android_app_import {
+	name: "QtiTelephonyService",
+	owner: "xiaomi",
+	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "qcrilmsgtunnel",
+	owner: "xiaomi",
+	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
