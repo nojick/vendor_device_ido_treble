@@ -508,6 +508,7 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     qcnvitems \
     qcrilhook \
+    qcrilmsgtunnel \
     QtiTelephonyServicelibrary \
     QtiTelephonyService \
     android.hardware.gnss@2.0-service-qti \
